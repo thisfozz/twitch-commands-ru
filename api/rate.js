@@ -25,7 +25,7 @@ export default async function handler(req, res) {
     return res.status(200).send(message);
   }
 
-  // Параметры уже декодированы — decodeURIComponent не нужен.
+  // Параметры уже декодированы - decodeURIComponent не нужен.
   const sender =
     typeof req.query.sender === 'string'
       ? req.query.sender.trim()
