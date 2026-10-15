@@ -2,7 +2,7 @@
 
 export default async function handler(req, res) {
   // 1. URL на твой raw-файл на GitHub
-  const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/thisfozz/twitch-commands-ru/main/ratings.txt';
+  const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/thisfozz/twitch-commands-ru/main/rating.txt';
 
   try {
     // 2. Скачиваем файл с GitHub
