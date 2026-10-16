@@ -6,8 +6,8 @@
       "dest": "/api/rate.js"
     },
     {
-      "src": "/api/store",
-      "dest": "/api/store.js"
+      "src": "/api/story",
+      "dest": "/api/story.js"
     }
   ]
 }
