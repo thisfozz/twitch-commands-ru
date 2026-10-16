@@ -1,8 +1,13 @@
 {
-  "name": "twitch-rating-api",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "vercel dev"
-  }
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/rate",
+      "dest": "/api/rate.js"
+    },
+    {
+      "src": "/api/store",
+      "dest": "/api/store.js"
+    }
+  ]
 }
