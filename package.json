@@ -4,10 +4,6 @@
     {
       "src": "/api/rate",
       "dest": "/api/rate.js"
-    },
-    {
-      "src": "/api/story",
-      "dest": "/api/story.js"
     }
   ]
 }
